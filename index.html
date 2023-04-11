@@ -1,0 +1,275 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <title>AI Innovation</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">AI Innovation</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+
+              <a class="nav-link" href="/about.html">About</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Dropdown
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="https://en.wikipedia.org/wiki/Artificial_intelligence">Artificial Intelligence</a>
+                <a class="dropdown-item" href="https://en.wikipedia.org/wiki/Machine_learning">Machine Learning</a>
+                <a class="dropdown-item" href="https://en.wikipedia.org/wiki/Deep_learning">Deep Learning</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="https://www.google.com/webhp?hl=en&sa=X&ved=0ahUKEwiEvtrn6Jf-AhWJ1TgGHdD4Cr0QPAgI">Search</a>
+              </div>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/contact.html">Contact us</a>
+              </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+          </form>
+          <div class="mx-2">
+            <button class="btn btn-danger " data-toggle="modal" data-target="#LoginModal">Login </button>
+            <button class="btn btn-danger" data-toggle="modal" data-target="#SignupModal">SignUp</button>
+
+          </div>
+        </div>
+      </nav>
+
+<!--Login Modal -->
+<div class="modal fade" id="LoginModal" tabindex="-1" role="dialog" aria-labelledby="LoginModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="loginModalLabel">Login</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <form>
+          <div class="form-group">
+            <label for="exampleInputEmail1">Email address</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+          </div>
+          <div class="form-group">
+            <label for="exampleInputPassword1">Password</label>
+            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+          </div>
+          <div class="form-group form-check">
+            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+            <label class="form-check-label" for="exampleCheck1">Check me out</label>
+          </div>
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+     
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- Signup Modal -->
+<div class="modal fade" id="SignupModal" tabindex="-1" role="dialog" aria-labelledby="SignupLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="SignupLabel">SignUp</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <form>
+          <div class="form-row">
+            <div class="col">
+              <input type="text" class="form-control" placeholder="First name">
+            </div>
+            <div class="col">
+              <input type="text" class="form-control" placeholder="Last name">
+            </div>
+          </div>
+            <div class="form-group row">
+              <label for="inputEmail3" class="col-sm-4 col-form-label">Email</label>
+              <div class="col-sm-8">
+                <input type="email" class="form-control" id="inputEmail3" placeholder="Email">
+              </div>
+            </div>
+            <div class="form-group row">
+              <label for="inputPassword3" class="col-sm-4 col-form-label">Password</label>
+              <div class="col-sm-8">
+                <input type="password" class="form-control" id="inputPassword3" placeholder="Password">
+              </div>
+            </div>
+            <div class="form-group row">
+              <label for="inputPassword3" class="col-sm-4 col-form-label"> Confirm Password</label>
+              <div class="col-sm-8">
+                <input type="password" class="form-control" id="inputPassword3" placeholder="Password">
+              </div>
+            </div>
+            <div class="form-group row">
+              <div class="col-sm-10">Are you sure you want to proceed?</div>
+              <div class="col-sm-2">
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" id="gridCheck1">
+                  <label class="form-check-label" for="gridCheck1">
+                    
+                  </label>
+                </div>
+              </div>
+            </div>
+            <div class="form-group row">
+              <div class="col-sm-10">
+                <button type="submit" class="btn btn-primary">Sign in</button>
+              </div>
+            </div>
+          
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+      <div class="bd-example">
+        <div id="carouselExampleCaptions" class="carousel slide carousel-fade" data-ride="carousel">
+          <ol class="carousel-indicators">
+            <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+            <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+          </ol>
+          <div class="carousel-inner" >
+            <div class="carousel-item active">
+              <img src="https://source.unsplash.com/1400x400/?AI, innovation" class="d-block w-100" alt="...">
+              <div class="carousel-caption d-none d-md-block">
+                <h2>Welcome to AI Innovation Center</h2>
+                <p>Transforming Enterprises with AI Applications, AI for Business Transformation.</p>
+                <a href="https://en.wikipedia.org/wiki/Technology" class="btn btn-danger" tabindex="-1" role="button" aria-disabled="true">Technology</a>
+                <a href="https://en.wikipedia.org/wiki/Web_development" class="btn btn-primary" tabindex="-1" role="button" aria-disabled="true">Web development</a>
+                <a href="https://en.wikipedia.org/wiki/Artificial_intelligence" class="btn btn-success" tabindex="-1" role="button" aria-disabled="true">Artificial Intelligence</a>
+               
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img  src="computer vision.jpg" class="d-block w-100" alt="...">
+              <div class="carousel-caption d-none d-md-block">
+                <h2>Computer Vision</h2>
+                <p>We deliver end to end Computer Vision solutions by integrating them with existing systems.</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="data science.jpg" class="d-block w-100" alt="...">
+              <div class="carousel-caption d-none d-md-block">
+                <h2>Data Science</h2>
+                <p>Data science services help companies run experiments on their data in search of business insights, find insights from data.</p>
+              </div>
+            </div>
+          
+          </div>
+          <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+      </div>
+      <div class="container my-4"><div class="row mb-2">
+        <div class="col-md-6">
+          <div class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+            <div class="col p-4 d-flex flex-column position-static">
+              <strong class="d-inline-block mb-2 text-danger">World</strong>
+              <h3 class="mb-0">Developer Week</h3>
+              <div class="mb-1 text-muted">2023</div>
+              <p class="card-text mb-auto">DeveloperWeek 2023 is the largest developer conference & event series including the DeveloperWeek 2023 Conference & Expo, 1,000+ attendee...</p>
+              <a href="https://www.developerweek.com/#:~:text=DeveloperWeek%202023%20is%20the%20largest,%2C%20technical%20talks%2C%20and%20keynotes." class="stretched-link">Continue reading</a>
+            </div>
+            <div class="col-auto d-none d-lg-block">
+              <img class="img-fluid" class="bd-placeholder-img" width="200" height="450" src="https://source.unsplash.com/400x630/?conference,meeting" alt="">
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+            <div class="col p-4 d-flex flex-column position-static">
+              <strong class="d-inline-block mb-2 text-warning">Design</strong>
+              <h3 class="mb-0">Web Design</h3>
+              <div class="mb-1 text-muted">2023</div>
+              <p class="mb-auto">Web designing is the process of planning, conceptualizing, and implementing the plan for designing a website in a way that is functional and...</p>
+              <a href="https://www.simplilearn.com/what-is-web-designing-article#:~:text=Web%20designing%20is%20the%20process,make%20them%20easy%20to%20navigate." class="stretched-link">Continue reading</a>
+            </div>
+            <div class="col-auto d-none d-lg-block">
+                <img class="img-fluid" class="bd-placeholder-img" width="200" height="450" src="https://source.unsplash.com/400x630/?website,code" alt="">
+            </div>
+          </div>
+        </div>
+      </div></div>
+      <div class="container my-4"><div class="row mb-2">
+        <div class="col-md-6">
+          <div class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+            <div class="col p-4 d-flex flex-column position-static">
+              <strong class="d-inline-block mb-2 text-primary">Coding</strong>
+              <h3 class="mb-0">Coding Contest</h3>
+              <div class="mb-1 text-muted">2023</div>
+              <p class="card-text mb-auto">Your coding skills with algorithmic puzzles meant for students and those new to coding competitions. Participate in one round or join them all.</p>
+              <a href="https://codingcompetitions.withgoogle.com/" class="stretched-link">Continue reading</a>
+            </div>
+            <div class="col-auto d-none d-lg-block">
+              <img class="img-fluid" class="bd-placeholder-img" width="200" height="450" src="https://source.unsplash.com/400x630/?code" alt="">
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+            <div class="col p-4 d-flex flex-column position-static">
+              <strong class="d-inline-block mb-2 text-success">Learning</strong>
+              <h3 class="mb-0">Machine Learning</h3>
+              <div class="mb-1 text-muted">2023</div>
+              <p class="mb-auto">Machine learning is a branch of artificial intelligence (AI) and computer science which focuses on the use of data and algorithms to imitate the way that...</p>
+              <a href="https://www.ibm.com/in-en/topics/machine-learning" class="stretched-link">Continue reading</a>
+            </div>
+            <div class="col-auto d-none d-lg-block">
+                <img class="img-fluid" class="bd-placeholder-img" width="200" height="450" src="https://source.unsplash.com/400x630/?haking, computer" alt="">
+            </div>
+          </div>
+        </div>
+      </div></div>
+
+
+      <footer class="container">
+        <p class="float-right"><a href="#">Back to top</a></p>
+        <p>© 2022-2023 AI Innovation, Inc. · <a href="#">Privacy</a> · <a href="#">Terms</a></p>
+      </footer>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>
